@@ -78,3 +78,4 @@ if uploaded_file is not None:
         st.text_area("Transcribed File Text", value=text, height=150)
       elif error:
         st.error(error)
+          
